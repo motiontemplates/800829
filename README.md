@@ -8,7 +8,7 @@ Fill a portrait silhouette with scenery, drift the layers in opposite directions
 
 [**Get this template on MotionGit ↗**](https://motiongit.com/@prism-studio/visual-art-f-double) · [简体中文](README.zh-CN.md)
 
-> Demo live · template download coming soon. Check the live page for availability. Register/sign in and obtain your own .motion when download opens.
+> Download available · check the current license on MotionGit. Check the live page for availability. Register/sign in and obtain your own .motion when download opens.
 
 ## Demo
 
