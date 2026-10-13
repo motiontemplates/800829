@@ -1,0 +1,104 @@
+{
+  "format": "motiongit.discovery/1",
+  "repositoryId": "800829",
+  "templateId": 620,
+  "owner": "prism-studio",
+  "slug": "visual-art-f-double",
+  "website": "https://motiongit.com/@prism-studio/visual-art-f-double",
+  "checkedAt": "2026-10-13",
+  "availability": "demo-only",
+  "title": {
+    "en": "Double Exposure · Portrait Layers",
+    "zh": "双重曝光 · 人像叠影"
+  },
+  "summary": {
+    "en": "Fill a portrait silhouette with scenery, drift the layers in opposite directions and reveal a title through mist.",
+    "zh": "以风景填充人像剪影，双层画面反向漂移，标题从薄雾显现，适合诗意人像叠影。"
+  },
+  "subtitle": {
+    "en": "Double Exposure · Portrait Layers",
+    "zh": "双重曝光 · 人像叠影"
+  },
+  "category": {
+    "en": "art",
+    "zh": "art"
+  },
+  "ratio": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "durationSeconds": 13,
+  "demo": {
+    "en": "https://media.openaicut.com/previews/620/draft-en-8b1d45590a57.mp4",
+    "zh": "https://motiongit.com/@prism-studio/visual-art-f-double?lang=zh",
+    "poster": "https://motiongit.com/media/covers/620/draft-zh-d8cadbd1b296.jpg"
+  },
+  "materials": [
+    {
+      "en": "Pairs: content items, 2 items.",
+      "zh": "Pairs：内容，2 项。",
+      "required": true
+    },
+    {
+      "en": "Title: text, up to 80 characters.",
+      "zh": "Title：文字，不超过 80 个字符。",
+      "required": true
+    },
+    {
+      "en": "Titleen: text, up to 80 characters.",
+      "zh": "Titleen：文字，不超过 80 个字符。",
+      "required": true
+    },
+    {
+      "en": "Credit: text, up to 80 characters.",
+      "zh": "Credit：文字，不超过 80 个字符。",
+      "required": true
+    },
+    {
+      "en": "Paper: text, up to 7 characters.",
+      "zh": "Paper：文字，不超过 7 个字符。",
+      "required": true
+    },
+    {
+      "en": "Ink: text, up to 7 characters.",
+      "zh": "Ink：文字，不超过 7 个字符。",
+      "required": true
+    }
+  ],
+  "dependencies": [
+    {
+      "en": "The package declares a Python and Node.js host. Check its dependency lock for supported versions and any additional rendering tools.",
+      "zh": "模板声明使用 Python 和 Node.js。具体工具与版本以下载包为准。"
+    },
+    {
+      "en": "Use the package dependency lock and setup/check instructions. Check existing tools first, install only missing requirements and verify a preview.",
+      "zh": "按下载包的依赖锁和 setup/check 说明检查已有工具，只补齐缺项，并验证预览。"
+    }
+  ],
+  "goodFor": {
+    "en": [
+      "Make the user's photos into the existing visual composition; retain every original effect and time cue."
+    ],
+    "zh": [
+      "Make the user's photos into the existing visual composition; retain every original effect and time cue."
+    ]
+  },
+  "boundaries": {
+    "en": [
+      "The documented output is 1920 × 1080, 60 fps; default demo duration is 13 seconds.",
+      "Use the actual package parameter bounds; extra materials do not automatically create extra scenes.",
+      "Arbitrary portrait output or scene rearrangement without a separately adapted design."
+    ],
+    "zh": [
+      "已声明输出为 1920 × 1080，60 fps；默认样片 13 秒。",
+      "按实际包的参数边界制作；增加素材不会自动增加场景。"
+    ]
+  },
+  "capabilities": [
+    {
+      "en": "Optional services require a live catalog, template slot and account check before they can be confirmed.",
+      "zh": "配套服务需核对官网实时能力、模板槽位和账号权限后才能确认。",
+      "status": "check-live"
+    }
+  ]
+}
