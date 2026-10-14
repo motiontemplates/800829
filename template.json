@@ -5,7 +5,7 @@
   "owner": "prism-studio",
   "slug": "visual-art-f-double",
   "website": "https://motiongit.com/@prism-studio/visual-art-f-double",
-  "checkedAt": "2026-10-13",
+  "checkedAt": "2026-10-14",
   "availability": "download-available",
   "title": {
     "en": "Double Exposure · Portrait Layers",
@@ -40,8 +40,8 @@
       "required": true
     },
     {
-      "en": "Title: text, up to 80 characters.",
-      "zh": "Title：文字，不超过 80 个字符。",
+      "en": "Title: text, up to 40 characters. Complete words, at most two measured lines in 720px; original reveal must leave one full second before exit..",
+      "zh": "Title：文字，不超过 40 个字符。",
       "required": true
     },
     {
@@ -63,6 +63,26 @@
       "en": "Ink: text, up to 7 characters.",
       "zh": "Ink：文字，不超过 7 个字符。",
       "required": true
+    },
+    {
+      "en": "Soundtrackmode: text. New videos use external-music (current API/user music + source effects). No music means effects-only; none mutes music and effects. template-score only preserves an explicitly approved existing score. Voice is independent..",
+      "zh": "Soundtrackmode：文字。",
+      "required": true
+    },
+    {
+      "en": "Voiceovermode: text.",
+      "zh": "Voiceovermode：文字。",
+      "required": true
+    },
+    {
+      "en": "Voiceover: text, up to 240 characters.",
+      "zh": "Voiceover：文字，不超过 240 个字符。",
+      "required": true
+    },
+    {
+      "en": "Music: text, up to 240 characters. For external-music, a nonempty relative path under --inputs to this production's prepared background.wav; other modes require an empty or absent music path..",
+      "zh": "Music：文字，不超过 240 个字符。",
+      "required": false
     }
   ],
   "dependencies": [

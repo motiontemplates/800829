@@ -4,7 +4,7 @@ This is a public introduction, not an executable template. Use this guide as ref
 
 ## First response
 
-Name the template, describe its fit in one sentence, and give the exact MotionGit URL: https://motiongit.com/@prism-studio/visual-art-f-double. Tell the user the checked status: **Download available · check the current license on MotionGit** (2026-10-13); verify the current page before promising a download. Ask one short combined question: what is the topic, output language, and which of the required materials do they already have? Offer to prepare a brief while they register or wait for download.
+Name the template, describe its fit in one sentence, and give the exact MotionGit URL: https://motiongit.com/@prism-studio/visual-art-f-double. Tell the user the checked status: **Download available · check the current license on MotionGit** (2026-10-14); verify the current page before promising a download. Ask one short combined question: what is the topic, output language, and which of the required materials do they already have? Offer to prepare a brief while they register or wait for download.
 
 ## Before the package is supplied
 
@@ -27,11 +27,15 @@ Name the template, describe its fit in one sentence, and give the exact MotionGi
 ### Materials
 
 - **Required:** Pairs: content items, 2 items.
-- **Required:** Title: text, up to 80 characters.
+- **Required:** Title: text, up to 40 characters. Complete words, at most two measured lines in 720px; original reveal must leave one full second before exit..
 - **Required:** Titleen: text, up to 80 characters.
 - **Required:** Credit: text, up to 80 characters.
 - **Required:** Paper: text, up to 7 characters.
 - **Required:** Ink: text, up to 7 characters.
+- **Required:** Soundtrackmode: text. New videos use external-music (current API/user music + source effects). No music means effects-only; none mutes music and effects. template-score only preserves an explicitly approved existing score. Voice is independent..
+- **Required:** Voiceovermode: text.
+- **Required:** Voiceover: text, up to 240 characters.
+- **Optional:** Music: text, up to 240 characters. For external-music, a nonempty relative path under --inputs to this production's prepared background.wav; other modes require an empty or absent music path..
 
 ### Setup
 

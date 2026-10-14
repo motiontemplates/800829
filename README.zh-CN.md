@@ -21,11 +21,15 @@
 ## 准备什么
 
 - **必需:** Pairs：内容，2 项。
-- **必需:** Title：文字，不超过 80 个字符。
+- **必需:** Title：文字，不超过 40 个字符。
 - **必需:** Titleen：文字，不超过 80 个字符。
 - **必需:** Credit：文字，不超过 80 个字符。
 - **必需:** Paper：文字，不超过 7 个字符。
 - **必需:** Ink：文字，不超过 7 个字符。
+- **必需:** Soundtrackmode：文字。
+- **必需:** Voiceovermode：文字。
+- **必需:** Voiceover：文字，不超过 240 个字符。
+- **可选:** Music：文字，不超过 240 个字符。
 
 Make the user's photos into the existing visual composition; retain every original effect and time cue..
 

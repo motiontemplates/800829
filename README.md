@@ -21,11 +21,15 @@ Fill a portrait silhouette with scenery, drift the layers in opposite directions
 ## What to prepare
 
 - **Required:** Pairs: content items, 2 items.
-- **Required:** Title: text, up to 80 characters.
+- **Required:** Title: text, up to 40 characters. Complete words, at most two measured lines in 720px; original reveal must leave one full second before exit..
 - **Required:** Titleen: text, up to 80 characters.
 - **Required:** Credit: text, up to 80 characters.
 - **Required:** Paper: text, up to 7 characters.
 - **Required:** Ink: text, up to 7 characters.
+- **Required:** Soundtrackmode: text. New videos use external-music (current API/user music + source effects). No music means effects-only; none mutes music and effects. template-score only preserves an explicitly approved existing score. Voice is independent..
+- **Required:** Voiceovermode: text.
+- **Required:** Voiceover: text, up to 240 characters.
+- **Optional:** Music: text, up to 240 characters. For external-music, a nonempty relative path under --inputs to this production's prepared background.wav; other modes require an empty or absent music path..
 
 Make the user's photos into the existing visual composition; retain every original effect and time cue..
 
