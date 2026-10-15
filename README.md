@@ -4,7 +4,7 @@
 
 Fill a portrait silhouette with scenery, drift the layers in opposite directions and reveal a title through mist.
 
-**16:9 · 1920 × 1080 · 60 fps · v2.5.1** · [@prism-studio](https://motiongit.com/@prism-studio) · [简体中文](README.zh-CN.md)
+**16:9 · 1920 × 1080 · 60 fps · v2.5.3** · [@prism-studio](https://motiongit.com/@prism-studio) · [简体中文](README.zh-CN.md)
 
 **[Template details, full .motion & demo](https://motiongit.com/@prism-studio/visual-art-f-double)**
 https://motiongit.com/@prism-studio/visual-art-f-double
