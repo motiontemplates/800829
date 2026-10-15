@@ -5,6 +5,19 @@
   "owner": "prism-studio",
   "slug": "visual-art-f-double",
   "website": "https://motiongit.com/@prism-studio/visual-art-f-double",
+  "version": "2.5.1",
+  "technical": {
+    "en": [
+      "Declared runtime profile: html-canvas/1.",
+      "Editable inputs are mapped through the template parameter schema and preset to its existing animation project.",
+      "The declared timeline has a fixed duration; new content fits its existing scene order and timing."
+    ],
+    "zh": [
+      "声明的运行配置：html-canvas/1。",
+      "通过模板参数和预设，将本期文字、数据或素材映射到已有动画工程。",
+      "已声明时间轴为固定时长，本期内容按现有场景顺序和节奏适配。"
+    ]
+  },
   "checkedAt": "2026-10-14",
   "availability": "download-available",
   "title": {
@@ -35,53 +48,18 @@
   },
   "materials": [
     {
-      "en": "Pairs: content items, 2 items.",
-      "zh": "Pairs：内容，2 项。",
+      "en": "Your photos and a title for this work.",
+      "zh": "这次要呈现的照片与作品标题。",
       "required": true
     },
     {
-      "en": "Title: text, up to 40 characters. Complete words, at most two measured lines in 720px; original reveal must leave one full second before exit..",
-      "zh": "Title：文字，不超过 40 个字符。",
-      "required": true
+      "en": "A licensed music track or your preference for music in this production.",
+      "zh": "本期已授权配乐，或本期是否需要配乐的偏好。",
+      "required": false
     },
     {
-      "en": "Titleen: text, up to 80 characters.",
-      "zh": "Titleen：文字，不超过 80 个字符。",
-      "required": true
-    },
-    {
-      "en": "Credit: text, up to 80 characters.",
-      "zh": "Credit：文字，不超过 80 个字符。",
-      "required": true
-    },
-    {
-      "en": "Paper: text, up to 7 characters.",
-      "zh": "Paper：文字，不超过 7 个字符。",
-      "required": true
-    },
-    {
-      "en": "Ink: text, up to 7 characters.",
-      "zh": "Ink：文字，不超过 7 个字符。",
-      "required": true
-    },
-    {
-      "en": "Soundtrackmode: text. New videos use external-music (current API/user music + source effects). No music means effects-only; none mutes music and effects. template-score only preserves an explicitly approved existing score. Voice is independent..",
-      "zh": "Soundtrackmode：文字。",
-      "required": true
-    },
-    {
-      "en": "Voiceovermode: text.",
-      "zh": "Voiceovermode：文字。",
-      "required": true
-    },
-    {
-      "en": "Voiceover: text, up to 240 characters.",
-      "zh": "Voiceover：文字，不超过 240 个字符。",
-      "required": true
-    },
-    {
-      "en": "Music: text, up to 240 characters. For external-music, a nonempty relative path under --inputs to this production's prepared background.wav; other modes require an empty or absent music path..",
-      "zh": "Music：文字，不超过 240 个字符。",
+      "en": "The current voice recording or your narration preference for this production.",
+      "zh": "本期配音文件，或是否需要配音的安排。",
       "required": false
     }
   ],
@@ -105,12 +83,12 @@
   },
   "boundaries": {
     "en": [
-      "The documented output is 1920 × 1080, 60 fps; default demo duration is 13 seconds.",
+      "The documented output is 1920 × 1080, 60 fps. The public demo is 13 seconds.",
       "Use the actual package parameter bounds; extra materials do not automatically create extra scenes.",
       "Arbitrary portrait output or scene rearrangement without a separately adapted design."
     ],
     "zh": [
-      "已声明输出为 1920 × 1080，60 fps；默认样片 13 秒。",
+      "已声明输出为 1920 × 1080，60 fps；公开样片 13 秒。",
       "按实际包的参数边界制作；增加素材不会自动增加场景。"
     ]
   },
