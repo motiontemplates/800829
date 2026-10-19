@@ -4,7 +4,7 @@
 
 以风景填充人像剪影，双层画面反向漂移，标题从薄雾显现，适合诗意人像叠影。
 
-**16:9 · 1920 × 1080 · 60 fps · v2.6.0** · [@prism-studio](https://motiongit.com/@prism-studio) · [English](README.md)
+**16:9 · 1920 × 1080 · 60 fps · v2.6.1** · [@prism-studio](https://motiongit.com/@prism-studio) · [English](README.md)
 
 **[模板详情、完整 .motion 与 Demo](https://motiongit.com/@prism-studio/visual-art-f-double)**
 https://motiongit.com/@prism-studio/visual-art-f-double
