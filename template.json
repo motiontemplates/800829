@@ -5,7 +5,7 @@
   "owner": "prism-studio",
   "slug": "visual-art-f-double",
   "website": "https://motiongit.com/@prism-studio/visual-art-f-double",
-  "version": "2.6.3",
+  "version": "2.6.4",
   "technical": {
     "en": [
       "Declared runtime profile: html-canvas/1.",
@@ -18,7 +18,7 @@
       "已声明时间轴为固定时长，本期内容按现有场景顺序和节奏适配。"
     ]
   },
-  "checkedAt": "2026-10-19",
+  "checkedAt": "2026-10-20",
   "availability": "download-available",
   "title": {
     "en": "Double Exposure · Portrait Layers",

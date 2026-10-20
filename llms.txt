@@ -1,7 +1,7 @@
 # Double Exposure · Portrait Layers · MotionGit .motion
 
 Template and full package: https://motiongit.com/@prism-studio/visual-art-f-double
-Version: 2.6.3
+Version: 2.6.4
 Download available; current terms are listed with the package.
 
 Declared runtime profile: html-canvas/1.
